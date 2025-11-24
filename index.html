@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Headphones</title>
+    <link 
+        href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' 
+        rel='stylesheet'
+    />
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
     <header>
-        <nav>
-            <div>
-                <img src="" alt="">
+        <nav class="flex">
+            <div class="flex"> 
+                <img class="nav-img" src="./assets/LogoLine.png" alt="logo site" />
                 <div>
-                    <ul>
+                    <ul class="flex nav-list">
                         <li><a href="">Features</a></li>
                         <li><a href="">Gallery</a></li>
                         <li><a href="">Tech Spec</a></li>
@@ -20,9 +25,11 @@
                 </div>
             </div>
             <div>
-                <ul>
-                    <li><a href="">Show Bag <i></i></a></li>
-                    <li><a href="">Sign Up</a></li>
+                <ul class="flex nav-list">
+                    <li id="bag-list">
+                        <a href="">Show Bag <i class='bx bxs-shopping-bag'></i></a>
+                    </li>
+                    <li id="sign-list"><a href="">Sign Up</a></li>
                 </ul>
             </div>
         </nav>
